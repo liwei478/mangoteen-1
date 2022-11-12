@@ -47,7 +47,7 @@ Rails.application.configure do
     authentication:       'plain',
     enable_starttls_auto: true,
     open_timeout:         10,
-    read_timeout:         10 
+    read_timeout:         10
   }
 
   # Print deprecation notices to the Rails logger.

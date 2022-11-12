@@ -5,4 +5,4 @@ class Api::V1::MesController < ApplicationController
     return head 404 if user.nil?
     render json: { resource: user }
   end
-end 
+end
